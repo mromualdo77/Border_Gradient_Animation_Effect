@@ -1,0 +1,36 @@
+html,body{
+     height: 100%;
+     width: 100%;
+     margin: 0%;
+     padding: 0%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #202020;
+}
+
+.Card {
+     height: 350px;
+     width: 350px;
+     border: 10px solid;
+     border-image: linear-gradient(yellow, red, blue) 1;
+     animation: Rotate 2s ease-in infinite;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     background-color: green;
+}
+
+.CardText {
+ color: wheat;
+ font-family: 'Roboto';
+ font-size: 20px;
+}
+
+@keyframes Rotate {
+
+     50% {
+          border-image: linear-gradient(360deg, yellow,red,blue) 1;
+     }
+}

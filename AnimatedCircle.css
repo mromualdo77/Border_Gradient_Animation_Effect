@@ -1,0 +1,72 @@
+html, body{
+     height: 100%;
+     width: 100%;
+     margin: 0%;
+     padding: 0%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.circle{
+     background-image: linear-gradient(red,green);
+     padding: 1px;
+     width: 300px;
+     height: 300px;
+     border-style: solid;
+     border-color: transparent;
+     border-radius: 50%;
+     border-width: 2px;
+     animation: rot 1.5s linear infinite;
+     padding: 1px;
+}
+
+.circle  div {
+     background: white;
+     height: 299px;
+     width: 299px;
+     border-style: solid;
+     border-color: transparent;
+     border-radius: 50%;
+     border-width: 1px;
+    
+}
+
+.circle p{
+     animation: none;
+}
+
+p{
+     position: absolute;
+     z-index: 10;
+     top: 48%;
+     font-family: 'Roboto';
+     font-size: 16px;
+    
+}
+
+@keyframes rot {
+     0%
+     {
+          transform: rotate(0deg);
+     }
+     25%
+     {
+          transform: rotate(90deg);
+     }
+
+     50%
+     {
+          transform: rotate(180deg);
+     }
+
+     75%
+     {
+          transform: rotate(270deg);
+     }
+
+     100%
+     {
+          transform: rotate(360deg);
+     }
+}
