@@ -5,7 +5,7 @@ Mini Project In Detail In Hindi -  no @V Coder que ajuda a melhorar as habilidad
 [Meu código](Border_Gradient_Animation_Effect)
 
 Referência:
-[V Coder](https://youtu.be/xYcA8uv1MaU)
+[V Coder](https://youtu.be/l1kTQu12UQc) 
 
 Aprendizados:
 
